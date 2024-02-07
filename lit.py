@@ -1,3 +1,7 @@
+import os
+MODEL_ROOT_PATH="./pretrain/"
+model_path=os.listdir(MODEL_ROOT_PATH)
+
 import numpy as np
 import cv2
 import tempfile
